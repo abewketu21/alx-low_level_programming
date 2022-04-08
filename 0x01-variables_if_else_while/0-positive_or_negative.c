@@ -7,7 +7,7 @@
  * Return: Always 0 (Success))
  */
 
-int main(void)
+int main(void)/*Positve is better than negative*/
 {
 int n;
 srand(time(0));
