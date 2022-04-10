@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: fknvvkj
+ * Description: fknvvkjhk
  * Return: Always 0 (Success/correct)
  */
 int main(void)
