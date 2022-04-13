@@ -16,7 +16,7 @@ int num, mult, prod;
 		{
 			_putchar(',');
 			_putchar(' ');
-			product = num * mult;
+			prod = num * mult;
 			if (prod <= 99)
 			{
 				_putchar(' ');
