@@ -24,9 +24,9 @@ int i;
 		for (i = n; i < 99; i++)
 		{
 			printf("%d", i);
-        		if (i != 98)
-        		{
-        		printf(", ");
+			if (i != 98)
+			{
+				printf(", ");
 			}
 		}
 	}
