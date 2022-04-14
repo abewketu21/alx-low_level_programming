@@ -15,17 +15,17 @@ if (a > b && b > c)
 	{
 		largest = a;
 	}
-else if (b > a && a > c)
-	{
-		largest = b;
-	}
-else if (c > b)
+else if (a > b && c > a)
 	{
 		largest = c;
 	}
+else if (b > c)
+	{
+		largest = b;
+	}
 else
 	{
-		largest = a;
+		largest = c;
 	}
 
 return (largest);
