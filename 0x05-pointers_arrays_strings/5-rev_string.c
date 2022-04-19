@@ -16,9 +16,10 @@ for (i = 0; s[i]; i++)
 {
 length++;
 }
+
 count = length;
 
-start_c = c;
+start_c = s;
 end_c = s;
 
 for (i = 0; i < count - 1; i++)
