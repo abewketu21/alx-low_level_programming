@@ -4,6 +4,8 @@
 #include <stdio.h>
 
 /**
+ * main - random password generator
+ * Return: Always 0.
  */
 
 int main(void)
