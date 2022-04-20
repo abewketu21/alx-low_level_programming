@@ -2,6 +2,8 @@
 
 /**
  * is_numerical - convert a string to an integer
+ * _atoi - convert a string to a number
+ * @s: String
  * @n: Number
  * Return: Return the num
  */
