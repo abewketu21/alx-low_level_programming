@@ -2,9 +2,9 @@
 
 /**
  * print_most_numbers - a function that prints the numbers, from 0 to 9
- * _putchar prints 0-9, excluding 2 and 4, followed by new line
+ * _putchar prints 0-9, excluding 2 and 4, followed by new line.
  * 
- * Return: 0-9 excluding 2 and 4
+ * Return: prints from 0-9 excluding 2 and 4.
  */
 
 void print_most_numbers(void)
@@ -12,7 +12,7 @@ void print_most_numbers(void)
 int i;
 i = 0;
 
-for (i = 0; i <= 9; i++)
+for (i = 0; i < 10; i++)
 {
 if ((i == 2) || (i == 4))
 {
