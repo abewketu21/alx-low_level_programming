@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_number - print number with putchar
  * @n: takes number
  * Return: void
  */
+
 void print_number(int n)
 {
 unsigned int m;
