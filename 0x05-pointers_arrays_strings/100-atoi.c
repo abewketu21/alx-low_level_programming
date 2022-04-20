@@ -2,8 +2,6 @@
 
 /**
  * is_numerical - convert a string to an integer
- * _atoi - convert a string to a number
- * @s: String
  * @n: Number
  * Return: Return the num
  */
@@ -12,6 +10,13 @@ int is_numerical(unsigned int n)
 {
 return (n >= '0' && n <= '9');
 }
+
+/**
+ * _atoi - convert a string to a number
+ * @s: String
+ * Return: Return the number
+ */
+
 int _atoi(char *s)
 {
 unsigned int number, i;
