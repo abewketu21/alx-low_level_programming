@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- * _atoi - convert a string to an integer
- * @s: String
+ * is_numerical - convert a string to an integer
+ * @n: Number
  * Return: Return the num
  */
 
-int _atoi(char *s)
+int is_numerical(unsigned int n)
+{
+return (n >= '0' && n <= '9');
+}
+int _atoi(char *s)	
 {
 unsigned int number, i;
 int sign;
