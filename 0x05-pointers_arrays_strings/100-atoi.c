@@ -10,7 +10,7 @@ int is_numerical(unsigned int n)
 {
 return (n >= '0' && n <= '9');
 }
-int _atoi(char *s)	
+int _atoi(char *s)
 {
 unsigned int number, i;
 int sign;
@@ -32,5 +32,5 @@ else if (s[i] == '-')
 sign *= -1;
 }
 }
-return (number * sign);
+return (number *sign);
 }
