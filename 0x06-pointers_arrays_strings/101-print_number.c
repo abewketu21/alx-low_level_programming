@@ -8,6 +8,7 @@
 void print_number(int n)
 {
 int power, neg, hold;
+
 neg = 0;
 power = 1;
 hold = n;
@@ -40,10 +41,9 @@ if (power == 1)
 {
 if (neg)
 {
-_putchar((n % 10) = -1 + '0');
+_putchar((n % 10) * -1 + '0');
 }
 else
-
 {
 _putchar((n % 10 + '0');
 }
